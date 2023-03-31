@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.nameless.mobileprogramming.perhitungan.KonversiSuhu;
 import com.nameless.mobileprogramming.perhitungan.LuasLingkaran;
 import com.nameless.mobileprogramming.perhitungan.LuasPersegipanjang;
 import com.nameless.mobileprogramming.perhitungan.LuasPersegitiga;
@@ -45,6 +46,15 @@ public class Module2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Module2.this, LuasLingkaran.class);
                 startActivity(intent);
+            }
+        });
+
+        btnSuhu = findViewById(R.id.btnSuhu);
+        btnSuhu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(Module2.this, KonversiSuhu.class);
+                startActivity(Intent);
             }
         });
 
