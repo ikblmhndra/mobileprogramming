@@ -54,7 +54,7 @@ public class Module2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent =  new Intent(Module2.this, KonversiSuhu.class);
-                startActivity(Intent);
+                startActivity(intent);
             }
         });
 
