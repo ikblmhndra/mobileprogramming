@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.nameless.mobileprogramming.R;
 
-public class dashboard extends AppCompatActivity {
+public class Dashboard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
