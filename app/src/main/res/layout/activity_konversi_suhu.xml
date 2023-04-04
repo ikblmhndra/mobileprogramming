@@ -6,4 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".perhitungan.KonversiSuhu">
 
+    <TextView
+        android:id="@+id/txtSuhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Menu Konversi Suhu"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCtoF"
+        android:layout_width="224dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="30dp"
+        android:text="Celsius to Fahrenheit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSuhu" />
+
+    <Button
+        android:id="@+id/btnFtoC"
+        android:layout_width="224dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:text="Fahrenheit to Celsius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCtoF" />
+
+    <Button
+        android:id="@+id/btnCtoK"
+        android:layout_width="224dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:text="Celsius to Kelvin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFtoC" />
+
+    <Button
+        android:id="@+id/btnKtoC"
+        android:layout_width="224dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:text="Kelvin to Celsius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCtoK" />
+
+    <Button
+        android:id="@+id/btnFtoK"
+        android:layout_width="224dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:text="Fahrenheit to Kelvin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKtoC" />
+
+    <Button
+        android:id="@+id/btnKtoK"
+        android:layout_width="224dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:text="Kelvin to Fahrenheit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFtoK" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

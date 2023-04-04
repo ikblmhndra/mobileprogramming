@@ -30,7 +30,7 @@ public class LuasPersegitiga extends AppCompatActivity {
         btnHitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Jika panjang dan lebar tidak diisi akan tampil notif error
+                // Jika alas dan tinggi tidak diisi akan tampil notif error
                 if (a.length() == 0 && t.length() == 0) {
                     Toast.makeText(getApplication(), "Panjang dan Lebar belum diisi",
                             Toast.LENGTH_LONG).show();
