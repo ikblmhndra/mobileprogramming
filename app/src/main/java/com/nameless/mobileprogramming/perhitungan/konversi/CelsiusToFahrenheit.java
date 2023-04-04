@@ -34,7 +34,7 @@ public class CelsiusToFahrenheit extends AppCompatActivity {
                 } else{
                     String isiCelsius = c.getText().toString();
                     double ic = Double.parseDouble(isiCelsius);
-                    double hk = CelsiusToFahrenheit(ic);
+                    double hk = celsiusTofahrenheit(ic);
 
                     String output = String.valueOf(hk + "\u00B0" + " Fahrenheit");
                     txtHasil.setText(output.toString());
@@ -43,7 +43,7 @@ public class CelsiusToFahrenheit extends AppCompatActivity {
         });
     }
 
-    public double CelsiusToFahrenheit(double c){
+    public double celsiusTofahrenheit(double c){
         return (c * 1.8) + 32;
     }
 
