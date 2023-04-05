@@ -6,4 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".perhitungan.konversi.FahrenheitToKelvin">
 
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konversi Fahrenheit ke Kelvin"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        />
+
+    <LinearLayout
+        android:id="@+id/llFtoK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@id/txtJudul"
+        app:layout_constraintTop_toBottomOf="@id/txtJudul">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Nilai Fahrenheit"
+            />
+        <EditText
+            android:id="@+id/etNilaifahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nilai Fahrenheit"
+            android:ems="10"
+            android:inputType="numberDecimal|numberSigned"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnKonversi5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konversi"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/llFtoK"
+        app:layout_constraintTop_toBottomOf="@id/llFtoK"
+        />
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/btnKonversi5"
+        app:layout_constraintTop_toBottomOf="@id/btnKonversi5"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

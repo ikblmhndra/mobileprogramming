@@ -32,13 +32,13 @@ public class LuasPersegitiga extends AppCompatActivity {
             public void onClick(View v) {
                 // Jika alas dan tinggi tidak diisi akan tampil notif error
                 if (a.length() == 0 && t.length() == 0) {
-                    Toast.makeText(getApplication(), "Panjang dan Lebar belum diisi",
+                    Toast.makeText(getApplication(), "Alas dan Tingg belum diisi",
                             Toast.LENGTH_LONG).show();
                 } else if (a.length() == 0) {
-                    Toast.makeText(getApplication(), "Panjang belum diisi",
+                    Toast.makeText(getApplication(), "Alas belum diisi",
                             Toast.LENGTH_LONG).show();
                 } else if (t.length() == 0) {
-                    Toast.makeText(getApplication(), "Lebar belum diisi",
+                    Toast.makeText(getApplication(), "Tinggi belum diisi",
                             Toast.LENGTH_LONG).show();
                 } else {
                     //ubah dari text ke string
