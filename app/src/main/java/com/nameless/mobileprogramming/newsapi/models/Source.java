@@ -2,7 +2,7 @@ package com.nameless.mobileprogramming.newsapi.models;
 
 public class Source {
     String id = "";
-    String name = "" ;
+    String name = "";
 
     public String getId() {
         return id;

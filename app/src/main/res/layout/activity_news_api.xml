@@ -15,7 +15,6 @@
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         >
 
-
     </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>

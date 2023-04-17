@@ -1,7 +1,6 @@
 package com.nameless.mobileprogramming.newsapi.models;
 
 public class NewsHeadlines {
-
     Source source = null;
     String author = "";
     String title = "";

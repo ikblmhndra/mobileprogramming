@@ -19,9 +19,9 @@ public class CustomViewHolder extends RecyclerView.ViewHolder {
     public CustomViewHolder(@NonNull View itemView) {
         super(itemView);
 
-        text_title = itemView.findViewById(R.id.txtTitle);
-        text_source = itemView.findViewById(R.id.txtSources);
-        img_headline = itemView.findViewById(R.id.imgHeadline);
+        text_title = itemView.findViewById(R.id.text_title);
+        text_source = itemView.findViewById(R.id.text_source);
+        img_headline = itemView.findViewById(R.id.img_headline);
         cardView = itemView.findViewById(R.id.main_container);
 
     }
