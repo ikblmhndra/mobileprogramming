@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Module2">
 
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

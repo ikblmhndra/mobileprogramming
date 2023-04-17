@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.nameless.mobileprogramming.perhitungan.KonversiSuhu;
@@ -16,6 +17,7 @@ import com.nameless.mobileprogramming.perhitungan.LuasPersegitiga;
 public class Module2 extends AppCompatActivity {
 
     Button btnPersegiPanjang, btnPersegiTiga, btnLingkaran, btnSuhu;
+    ImageView imgBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,14 @@ public class Module2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent =  new Intent(Module2.this, KonversiSuhu.class);
                 startActivity(intent);
+            }
+        });
+
+        imgBack = findViewById(R.id.imgBack);
+        imgBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
             }
         });
 
