@@ -35,6 +35,15 @@
                 android:text="dodol"
                 android:textColor="@color/purple_500"
                 android:layout_marginTop="6dp"/>
+            <TextView
+                android:id="@+id/text_created"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:text="dodol"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="6dp"/>
         </LinearLayout>
         <ImageView
             android:id="@+id/img_headline"

@@ -12,7 +12,7 @@ import com.nameless.mobileprogramming.R;
 
 public class CustomViewHolder extends RecyclerView.ViewHolder {
 
-    TextView text_title, text_source;
+    TextView text_title, text_source, text_created;
     ImageView img_headline;
     CardView cardView;
 
@@ -21,6 +21,7 @@ public class CustomViewHolder extends RecyclerView.ViewHolder {
 
         text_title = itemView.findViewById(R.id.text_title);
         text_source = itemView.findViewById(R.id.text_source);
+        text_created = itemView.findViewById(R.id.text_created);
         img_headline = itemView.findViewById(R.id.img_headline);
         cardView = itemView.findViewById(R.id.main_container);
 

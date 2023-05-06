@@ -1,8 +1,9 @@
 package com.nameless.mobileprogramming.newsapi.models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class NewsApiResponses {
+public class NewsApiResponses implements Serializable {
     String status;
     int totalResults;
     List<NewsHeadlines> articles;
