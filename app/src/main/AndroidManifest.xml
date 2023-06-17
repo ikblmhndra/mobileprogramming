@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Mobileprogramming"
         tools:targetApi="31">
         <activity
+            android:name=".login.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".newsapi.DetailActivity"
             android:exported="false" />
         <activity
@@ -77,6 +83,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
